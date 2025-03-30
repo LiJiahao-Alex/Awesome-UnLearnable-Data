@@ -1,4 +1,4 @@
-# Awesome Unlearnable Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome UnLearnable Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This is the official code implementation of **A Survey on Unlearnable Data**.
 ## 📌 Table of Contents
