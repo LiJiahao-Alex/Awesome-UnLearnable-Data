@@ -1,8 +1,8 @@
 
-# Awesome Unlearnable Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2503.23536-b31b1b.svg)](https://arxiv.org/pdf/2503.23536) <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
+# Awesome Unlearnable Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2503.23536-b31b1b.svg)](https://arxiv.org/abs/2503.23536) <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
 
-This is the official code implementation of <a href="https://arxiv.org/pdf/2503.23536">**A Survey on Unlearnable Data**</a>.
+This is the official code implementation of <a href="https://arxiv.org/abs/2503.23536">**A Survey on Unlearnable Data**</a>.
 
 ## Table of Contents
 - 📖[Overview](#overview)
