@@ -1,18 +1,23 @@
 # Awesome Unlearnable Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is the official code implementation of **A Survey on Unlearnable Data**.
+This is the official code implementation of <a href="https://arxiv.org/pdf/2101.04898">**A Survey on Unlearnable Data**</a>.
 ## 📌 Table of Contents
-- [Overview](#overview)
-- [Paper List](#papers)
-- [Paper Summary](#papersummary)
-- [Related Topics](#related-topics)
-- [Contributing](#contributing)
-- [License](#license)
+- 📖[Overview](#overview)
+- 📚[Paper List](#paper-list)
+- 📒[Paper Summary](#paper-summary)
+- 🗣️[Related Topics](#related-topics)
+- 🤝[Contributing](#contributing)
+- ⭐[Citation](#citation)
+- 🔗[License](#license)
 
-## 📖 Overview
+
+##  Overview
 Unlearnable data (ULD) has emerged as an innovative defense technique to prevent machine learning models from learning meaningful patterns from specific data, thus protecting data privacy and security. By introducing perturbations to the training data, ULD degrades model performance, making it difficult for unauthorized models to extract useful representations. Despite the growing significance of ULD, existing surveys predominantly focus on related fields, such as adversarial attacks and machine unlearning, with little attention given to ULD as an independent area of study. This survey fills that gap by offering a comprehensive review of ULD, examining unlearnable data generation methods, public benchmarks, evaluation metrics, theoretical foundations and practical applications. We compare and contrast different ULD approaches, analyzing their strengths, limitations, and trade-offs related to unlearnability, imperceptibility, efficiency and robustness. Moreover, we discuss key challenges, such as balancing perturbation imperceptibility with model degradation and the computational complexity of ULD generation. Finally, we highlight promising future research directions to advance the effectiveness and applicability of ULD, underscoring its potential to become a crucial tool in the evolving landscape of data protection in machine learning.
 ![](figure2.png)
-## 📚 Paper List
+
+## Paper List
+Unlearnable Data (ULD) techniques have rapidly evolved, giving rise to a diverse range of methods aimed at preventing machine learning models from learning useful features during training. Notably, ULD methods classification is inherently multi-faceted, as different studies categorize these methods based on distinct focal points. Depending on different concerns, ULD methods can be classified according to data type (e.g., images, text, audio), task applicability (e.g., classification, generation, segmentation), technical intent (e.g., defense, attack, acceleration), surrogate model dependency (e.g., surrogate-based vs. surrogate-free scenarios), robustness against adversarial countermeasures, etc. We presents a comprehensive taxonomy that incorporates these diverse perspectives, providing a structured analysis of ULD techniques. Each classification criterion sheds light on different aspects of the technology, offering deeper insights into the evolution and application of ULD methods.
+
 | #  | Study | Publication | Year | Data | Task | Intend | Label | Bounded | Surrogate | Robust |
 |----|-------|-------------|------|------|------|--------|-------|---------|-----------|--------|
 | 1  | EM[<a href="https://arxiv.org/pdf/2101.04898">Paper</a>, <a href="https://github.com/HanxunH/Unlearnable-Examples">Code</a>] | ICLR | 2021 | Image | Classification | Defense | YES | YES | YES | NO |
@@ -69,7 +74,6 @@ Unlearnable data (ULD) has emerged as an innovative defense technique to prevent
 | 52 | SALUD[<a href="https://openreview.net/pdf?id=I4Lq2RJ0eJ">Paper</a>, <a href="https://github.com/MLsecurityLab/HowFarAreFromTrueUnlearnability.git">Code</a>] | ICLR | 2025 | Image | Classification | Evaluate | N.A. | N.A. | N.A. | N.A. |
 
 ## 📒 Paper Summary
-# Overview of ULD Methodology
 
 | #  | Study | Publication | Year | Overview |
 |----|-------|-------------|------|----------|
@@ -126,7 +130,7 @@ Unlearnable data (ULD) has emerged as an innovative defense technique to prevent
 | 51 | COIN[<a href="https://arxiv.org/pdf/2311.18403">Paper</a>, <a href="https://github.com/wxldragon/COIN">Code</a>] | AAAI | 2025 | Propose a method to detect CUDA perturbations and break their protective effects through reverse engineering. |
 | 52 | SALUD[<a href="https://openreview.net/pdf?id=I4Lq2RJ0eJ">Paper</a>, <a href="https://github.com/MLsecurityLab/HowFarAreFromTrueUnlearnability.git">Code</a>] | ICLR | 2025 | Propose unlearnability distance, based on the distribution of parameters in clean and poisoned models, to measure data unlearnability, aiming to promote community awareness of the capability boundaries of existing unlearnable methods. |
 
-## 🔗 Related Topics
+## Related Topics
 - Unlearnable Data
 - Data Privacy
 - Deep Learning Security
@@ -135,14 +139,29 @@ Unlearnable data (ULD) has emerged as an innovative defense technique to prevent
 - Privacy-Preserving Machine Learning
 
 
-## 🤝 Contributing
+## Contributing
 Feel free to submit pull requests with additional ULD techniques or corrections. If you have any suggestions or find our work helpful, feel free to contact us: Jiahao Li (www.lijiahao@live.cn)
 
 
-## 📄 License
-To the extent possible under law, <a href="https://lijiahao-alex.github.io/homepage/">Jiahao Li</a> has retained all copyright and related or neighboring rights to this work.
 
 
----
+
+## Citation
+If this project has helped your research, please cite the following review papers:
+```
+@misc{li2025surveyunlearnabledata,
+      title={A Survey on Unlearnable Data}, 
+      author={Jiahao Li and Yiqiang Chen and Yunbing Xing and Yang Gu and Xiangyuan Lan},
+      year={2025},
+      eprint={2503.23536},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2503.23536},
+      }
+```
 
 ⭐ **If you find this list useful, give it a star!** ⭐
+
+
+## License
+To the extent possible under law, <a href="https://lijiahao-alex.github.io/homepage/">Jiahao Li</a> has retained all copyright and related or neighboring rights to this work.
