@@ -2,7 +2,8 @@
 # Awesome Unlearnable Data
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2503.23536-b31b1b.svg)](https://arxiv.org/abs/2503.23536) <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
----
+# [<img src="[ULD_logo.png](https://github.com/LiJiahao-Alex/Awesome-UnLearnable-Data/blob/main/ULD_logo.png "ULD_logo.png")">](https://github.com/LiJiahao-Alex/Awesome-UnLearnable-Data)
+> Carefully curated list of awesome unlearnable data technology resources.
 
 This is the official code implementation of <a href="https://arxiv.org/abs/2503.23536">**A Survey on Unlearnable Data**</a>.
 
