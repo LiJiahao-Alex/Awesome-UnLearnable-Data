@@ -1,6 +1,7 @@
 
 # Awesome Unlearnable Data
-[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2503.23536-b31b1b.svg)](https://arxiv.org/abs/2503.23536) <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2503.23536-b31b1b.svg)](https://arxiv.org/abs/2503.23536) <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) ![GitHub last commit](https://img.shields.io/github/last-commit/LiJiahao-Alex/Awesome-UnLearnable-Data) [![GitHub Repo stars](https://img.shields.io/github/stars/LiJiahao-Alex/Awesome-UnLearnable-Data?style=social)](https://github.com/LiJiahao-Alex/Awesome-UnLearnable-Data/stargazers)
+
 
 ![](ULD_logo.png)
 > Carefully curated list of awesome unlearnable data technology resources.
@@ -16,7 +17,15 @@ This is the official code implementation of <a href="https://arxiv.org/abs/2503.
 - ⭐[Citation](#citation)
 - 🔗[License](#license)
 
+## Star History
 
+<a href="https://www.star-history.com/#LiJiahao-Alex/Awesome-UnLearnable-Data&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=LiJiahao-Alex/Awesome-UnLearnable-Data&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=LiJiahao-Alex/Awesome-UnLearnable-Data&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=LiJiahao-Alex/Awesome-UnLearnable-Data&type=Date" />
+ </picture>
+</a>
 
 ## Overview 
 Unlearnable data (ULD) has emerged as an innovative defense technique to prevent machine learning models from learning meaningful patterns from specific data, thus protecting data privacy and security. By introducing perturbations to the training data, ULD degrades model performance, making it difficult for unauthorized models to extract useful representations. Despite the growing significance of ULD, existing surveys predominantly focus on related fields, such as adversarial attacks and machine unlearning, with little attention given to ULD as an independent area of study. This survey fills that gap by offering a comprehensive review of ULD, examining unlearnable data generation methods, public benchmarks, evaluation metrics, theoretical foundations and practical applications. We compare and contrast different ULD approaches, analyzing their strengths, limitations, and trade-offs related to unlearnability, imperceptibility, efficiency and robustness. Moreover, we discuss key challenges, such as balancing perturbation imperceptibility with model degradation and the computational complexity of ULD generation. Finally, we highlight promising future research directions to advance the effectiveness and applicability of ULD, underscoring its potential to become a crucial tool in the evolving landscape of data protection in machine learning.
