@@ -182,7 +182,3 @@ If this project has helped your research, please cite the following review paper
 
 [<kbd>▲</kbd> Back to Top](#table-of-contents)
 
-## License
-To the extent possible under law, <a href="https://lijiahao-alex.github.io/homepage/">Jiahao Li</a> has retained all copyright and related or neighboring rights to this work.
-
-[<kbd>▲</kbd> Back to Top](#table-of-contents)
